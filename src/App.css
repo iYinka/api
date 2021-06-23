@@ -1,0 +1,15 @@
+.axios {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
