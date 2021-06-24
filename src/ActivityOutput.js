@@ -2,7 +2,7 @@ import React from 'react'
 
 function ActivityOutput(props) {
   const Output = (props) => {
-    const { menu, users, show } = props;
+    const { users} = props;
 
     if (users.length > 0) {
       return (

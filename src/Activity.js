@@ -217,9 +217,9 @@ function Activity(res) {
 
   
   //AXIOS INSTANCE
-  const axiosInstance = axios.create({
-      baseURL: 'https://jsonplaceholder.typicode.com/'
-  })
+  // const axiosInstance = axios.create({
+  //     baseURL: 'https://jsonplaceholder.typicode.com/'
+  // })
 
   // axiosInstance.get('/comments?_limit=5').then(res => console.log(res)); ////Runs immediately
 
@@ -247,7 +247,7 @@ function Activity(res) {
       </Link>
 
       <div>
-        <h5>{res.status}</h5>
+        {/* <h5>{res.status}</h5> */}
       </div>
       <div>
         {/* <pre>{JSON.stringify(res.headers, null, 2)}</pre> */}

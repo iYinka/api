@@ -2,15 +2,15 @@ import React, { useState } from 'react'
 import { Input } from 'antd';
 import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 import './App.css'
-import {Link, useHistory} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 
 function Logo() {
   // const history = useHistory();
-  const [values, setValues] = useState({
-    email: '',
-    password: ''
-  })
+  // const [values, setValues] = useState({
+  //   email: '',
+  //   password: ''
+  // })
 
   // const SignIn = e => {
   //   e.preventDefault();
@@ -30,7 +30,7 @@ function Logo() {
         
         />
       <Input.Password
-        value={values.password}
+        // value={values.password}
       placeholder="Enter password"
         iconRender={visible => (visible ? <EyeTwoTone /> : <EyeInvisibleOutlined />)}
         // onChange={handleChange('password')}
