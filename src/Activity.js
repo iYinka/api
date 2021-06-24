@@ -28,9 +28,7 @@ function Activity(res) {
   // GET REQUEST METHOD
   const getUsers = () => {
     // FIRST METHOD
-    axios.get(`${url}users`, {
-      // timeout: 5,
-      params: { _limit: 5 }
+    axios.get(`${url}users`, { params: { _limit: 5 }
     })
       .then((response) => {
         const allUsers = response.data;
