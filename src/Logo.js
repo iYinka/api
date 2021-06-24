@@ -25,7 +25,8 @@ function Logo() {
   // }
   return (
     <div className='input'>
-      <Input placeholder='Enter email' value={values.email}
+      <Input placeholder='Enter email'
+        // value={values.email}
         // onChange={handleChange('email')} 
         
         />
